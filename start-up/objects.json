@@ -1,0 +1,57 @@
+/*
+ *  REGISTER
+ */
+
+{
+  "company": "BMW SERVISAS MB",
+  "email": "bmwservisas@gmail.com",
+  "id": 0,
+  "secret": {
+    "email": "bmwservisas@gmail.com",
+    "id": 0,
+    "password": "1234",
+    "token": ""
+  },
+  "type": "BUSINESS"
+}
+
+/*
+ *  LOGIN WITH CREDENTIALS
+ */
+
+{
+  "email": "bmwservisas@gmail.com",
+  "password": "1234",
+  "token":""
+}
+
+/*
+ *  LOGIN WITH TOKEN
+ */
+
+{
+"token":"ba33db6b-1a71-49d6-92ab-ea2c10535160"
+}
+
+/*
+ *  CREATE ENQUIRY VIA PROFILE ! DOES NOT WORK THAT WAY
+ */
+{
+  "id": 1,
+  "enquiries": [
+    {
+    "description": "Some problems",
+    "id": 0
+    }
+  ]
+}
+
+/*
+ *  CREATE ENQUIRY
+ */
+
+{
+  "description": "Something broken",
+  "id": 0,
+  "profileId":1
+}
